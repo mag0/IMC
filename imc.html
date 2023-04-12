@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice de masa corporal</title>
+    <link rel="stylesheet" href="imc.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="titulo">
+                <h2>¿Queres conocer tu indice de masa corporal?</h2>
+            </div>
+        </header>
+
+        <main>
+            <section class="informacion">
+                <div class="niveles">
+                    <h3>Los niveles del indice de masa corporal son los siguientes: </h3>
+                    <p>Si tu indice es de 18.5 te encuentras en un "Peso inferior"</p>
+                    <p>Si tu indice esta entre 18.5 y 24.9 te encuentras en un "Peso normal"</p>
+                    <p>Si tu indice esta entre 25.0 y 29.9 te encuentras en "Sobrepeso"</p>
+                    <p>Si tu indice esta entre 30.0 y 34.9 te encuentras con "Obesidad moderada"</p>
+                    <p>Si tu indice esta entre 35 y 40 te encuentras con "Obesidad severa"</p>
+                </div>
+            </section>
+            <section class="formulario">
+                <div id="peso_ideal" class="peso_ideal">
+
+                    <h3>¡Rellena el siguiente formulario para conocer tu IMC!</h3>
+
+                    <form action="">
+
+                        <input type="text" placeholder="Nombre" id="nombre">
+                        <input type="number" placeholder="Peso (kg)" id="peso">
+                        <input type="number" placeholder="Altura (m)" id="altura">
+                        <button class="boton">Calcular</button>
+                        <button class="eliminar" >Restablecer</button>
+
+                    </form>
+
+                </div>
+
+            <p id="resultado" class="resultado"></p>
+
+            </section>
+        </main>
+    </div>
+        
+    <script src="imc.js"></script>
+
+</body>
+</html>
